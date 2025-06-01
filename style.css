@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #00a2ff, #006d80);
+}
+
+.container {
+    background-color: #fff;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+
+.container .show_box {
+    width: 100%;
+    height: 220px;
+    background: linear-gradient(135deg, #00a2ff, #006d80);
+    border-radius: 5px;
+}
+
+.container .mange_colors {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .mange_colors .dirction P {
+    font-size: 20px;
+}
+
+.container .mange_colors .dirction select {
+    margin-top: 5px;
+    padding: 5px;
+    outline: none;
+    font-size: 15px;
+}
+
+.container .mange_colors .colors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.container .mange_colors .colors h3 {
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+.container .mange_colors .colors .inputs_colors input {
+    width: 55px;
+    height: 32px;
+}
+
+.container .mange_colors .colors .inputs_colors input:last-child {
+    margin-left: 5px;
+}
+
+textarea {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    resize: none;
+    outline: none;
+}
+
+.buttons {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.buttons button {
+    padding: 16px 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.buttons button:first-child {
+    background-color: gray;
+    color: #fff;
+}
+
+.buttons button:last-child {
+    background-color: #1fb8b8;
+    color: #fff;
+}
