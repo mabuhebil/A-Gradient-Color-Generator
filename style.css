@@ -24,7 +24,7 @@ body {
 .container .show_box {
     width: 100%;
     height: 220px;
-    background: linear-gradient(135deg, #00a2ff, #006d80);
+    background: linear-gradient(to right, #c2b71e, #2a9a3c);
     border-radius: 5px;
 }
 
